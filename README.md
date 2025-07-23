@@ -4,11 +4,11 @@ This project is a simple Python-based log anomaly detection system. It reads sys
 
 ## 📁 Project Structure
 
-📦 Log Anomaly Detection
-├── anamoly_detection.py # Python script for anomaly detection
-├── server.log # Input log file
-├── anomaly.log # Output file with detected anomalies
-└── instruction.txt # Setup instructions
+📦 Log Anomaly Detection \n
+├── anamoly_detection.py # Python script for anomaly detection \n
+├── server.log # Input log file \n
+├── anomaly.log # Output file with detected anomalies \n
+└── instruction.txt # Setup instructions \n
 
 
 ## ✅ Features
@@ -20,27 +20,27 @@ This project is a simple Python-based log anomaly detection system. It reads sys
 - Tags alerts with severity: `CRITICAL` or `MEDIUM`.
 
 ## 🔧 Installation & Execution
-
-### Step 1: Install required packages (optional for extended functionality)
 ```bash
+**### Step 1: Install required packages (optional for extended functionality)**
+
 pip install pandas matplotlib seaborn scikit-learn nltk
 
-Step 2: Run the anomaly detection script
+**Step 2: Run the anomaly detection script**
 python anamoly_detection.py
 
-Step 3: Output
+**Step 3: Output**
 * Detected anomalies will be saved in anomaly.log
 
 * Check the terminal for the confirmation message:
 ✅ Anomaly detection complete. Check 'anomaly.log'
 
-Output Format (anomaly.log)
+**Output Format (anomaly.log)**
 [SECURITY ALERT] [MEDIUM] 2025-07-23 09:14:10 : Authentication failed for user 'admin' from IP 172.16.5.21
 
-Detection Logic
+**Detection Logic**
 The script scans only logs with the level WARNING, ERROR, or CRITICAL. It uses keyword-based classification:
 
-🔐 Security Keywords:
+**🔐 Security Keywords:**
 * unauthorized access
 
 * failed login
@@ -55,7 +55,8 @@ The script scans only logs with the level WARNING, ERROR, or CRITICAL. It uses k
 
 * authentication failed
 
-🖥️ System Keywords:
+**🖥️ System Keywords:**
+
 * disk usage
 
 * kernel panic
@@ -72,7 +73,8 @@ The script scans only logs with the level WARNING, ERROR, or CRITICAL. It uses k
 
 * latency
 
-🧠 How It Works
+🧠 **How It Works**
+
 * Reads logs line by line from server.log
 
 * Matches format using regular expressions
@@ -82,8 +84,5 @@ The script scans only logs with the level WARNING, ERROR, or CRITICAL. It uses k
 * Checks if the message contains anomaly keywords
 
 * Classifies and writes formatted result to anomaly.log
-
-
-
 ---
 
