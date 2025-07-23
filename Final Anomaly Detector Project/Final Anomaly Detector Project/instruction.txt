@@ -1,5 +1,0 @@
-Step1: pip install pandas matplotlib seaborn scikit-learn nltk
-Step2 : run python script
-
-input file -> server.log(Here all the normal,security,operation,system, mulfunction and some normal function logs will present)
-output file-> anomaly.log(here all the anomaly detected logs will be present)
