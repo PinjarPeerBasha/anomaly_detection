@@ -2,9 +2,9 @@
 
 This project is a simple Python-based log anomaly detection system. It reads system logs from a file, detects anomalies, and classifies them into **SECURITY** or **SYSTEM** alerts with severity levels like `CRITICAL` or `MEDIUM`.
 
-## 📁 Project Structure
+## Project Structure
 
-📦 Log Anomaly Detection
+ Log Anomaly Detection
 
 ├── anamoly_detection.py # Python script for anomaly detection
 
@@ -15,15 +15,15 @@ This project is a simple Python-based log anomaly detection system. It reads sys
 └── instruction.txt # Setup instructions 
 
 
-## ✅ Features
+## Features
 
 - Automatically scans logs and extracts only critical or suspicious activity.
 - Classifies anomalies into:
-  - 🔐 **Security Alerts** (e.g., failed login, ransomware, port scan)
-  - 🖥️ **System Alerts** (e.g., disk usage, kernel panic, deadlocks)
+  - **Security Alerts** (e.g., failed login, ransomware, port scan)
+  - **System Alerts** (e.g., disk usage, kernel panic, deadlocks)
 - Tags alerts with severity: `CRITICAL` or `MEDIUM`.
 
-## 🔧 Installation & Execution
+## Installation & Execution
 ### Step 1: Install required packages (optional for extended functionality)
 
 pip install pandas matplotlib seaborn scikit-learn nltk
@@ -35,7 +35,7 @@ RUN COMMAND: python anamoly_detection.py
 * Detected anomalies will be saved in anomaly.log
 
 * Check the terminal for the confirmation message:
-✅ Anomaly detection complete. Check 'anomaly.log'
+ Anomaly detection complete. Check 'anomaly.log'
 
 ## Output Format (anomaly.log)
 [SECURITY ALERT] [MEDIUM] 2025-07-23 09:14:10 : Authentication failed for user 'admin' from IP 172.16.5.21
@@ -43,7 +43,7 @@ RUN COMMAND: python anamoly_detection.py
 ## Detection Logic
 The script scans only logs with the level WARNING, ERROR, or CRITICAL. It uses keyword-based classification:
 
-## 🔐 Security Keywords:
+## Security Keywords:
 * unauthorized access
 
 * failed login
@@ -58,7 +58,7 @@ The script scans only logs with the level WARNING, ERROR, or CRITICAL. It uses k
 
 * authentication failed
 
-## 🖥️ System Keywords:
+## System Keywords:
 
 * disk usage
 
@@ -76,7 +76,7 @@ The script scans only logs with the level WARNING, ERROR, or CRITICAL. It uses k
 
 * latency
 
-## 🧠 How It Works
+## How It Works
 
 * Reads logs line by line from server.log
 
