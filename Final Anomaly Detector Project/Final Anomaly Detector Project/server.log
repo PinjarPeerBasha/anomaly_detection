@@ -1,0 +1,25 @@
+2025-07-23 09:12:01 [INFO] Server started on port 8080
+2025-07-23 09:13:45 [INFO] User 'john' logged in from IP 192.168.0.10
+2025-07-23 09:14:10 [WARNING] Authentication failed for user 'admin' from IP 172.16.5.21
+2025-07-23 09:14:30 [ERROR] Database connection timeout
+2025-07-23 09:14:50 [INFO] Scheduled backup completed
+2025-07-23 09:15:05 [CRITICAL] Unauthorized access attempt to /etc/shadow by user 'unknown'
+2025-07-23 09:15:25 [WARNING] Multiple failed login attempts for user 'root' from 10.0.0.100
+2025-07-23 09:16:00 [INFO] File uploaded to /var/www/uploads/image.png
+2025-07-23 09:16:30 [ERROR] Disk usage on /var exceeds 92%
+2025-07-23 09:17:00 [WARNING] Suspicious file upload detected: /tmp/malware.sh
+2025-07-23 09:17:30 [INFO] User 'alice' logged out
+2025-07-23 09:18:00 [CRITICAL] Port scan detected from 192.168.1.200
+2025-07-23 09:18:30 [ERROR] Kernel panic - not syncing: Attempted to kill init!
+2025-07-23 09:19:00 [INFO] Health check passed for all services
+2025-07-23 09:19:30 [WARNING] Possible brute-force attack on SSH from IP 203.0.113.99
+2025-07-23 09:20:00 [INFO] Log rotation completed successfully
+2025-07-23 09:20:30 [ERROR] Application crashed due to NullPointerException
+2025-07-23 09:21:00 [INFO] Recovered from crash and restarted application
+2025-07-23 09:21:30 [INFO] Cron job executed: cleanup_temp_files.sh
+2025-07-23 09:22:00 [WARNING] Excessive CPU usage detected on node 3
+2025-07-23 09:22:30 [CRITICAL] Ransomware signature found in /mnt/data/documents
+2025-07-23 09:23:00 [INFO] Connection closed for user 'john'
+2025-07-23 09:23:30 [ERROR] Deadlock detected in transaction 12487
+2025-07-23 09:24:00 [INFO] Sync completed with upstream server
+2025-07-23 09:24:30 [WARNING] Unexpected change in configuration detected

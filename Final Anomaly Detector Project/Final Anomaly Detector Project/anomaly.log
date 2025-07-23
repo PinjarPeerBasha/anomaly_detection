@@ -1,0 +1,13 @@
+[SECURITY ALERT] [MEDIUM] 2025-07-23 09:14:10 : Authentication failed for user 'admin' from IP 172.16.5.21
+[SYSTEM ALERT] [MEDIUM] 2025-07-23 09:14:30 : Database connection timeout
+[SECURITY ALERT] [MEDIUM] 2025-07-23 09:15:05 : Unauthorized access attempt to /etc/shadow by user 'unknown'
+[SECURITY ALERT] [MEDIUM] 2025-07-23 09:15:25 : Multiple failed login attempts for user 'root' from 10.0.0.100
+[SYSTEM ALERT] [MEDIUM] 2025-07-23 09:16:30 : Disk usage on /var exceeds 92%
+[SECURITY ALERT] [MEDIUM] 2025-07-23 09:17:00 : Suspicious file upload detected: /tmp/malware.sh
+[SECURITY ALERT] [CRITICAL] 2025-07-23 09:18:00 : Port scan detected from 192.168.1.200
+[SYSTEM ALERT] [CRITICAL] 2025-07-23 09:18:30 : Kernel panic - not syncing: Attempted to kill init!
+[SECURITY ALERT] [MEDIUM] 2025-07-23 09:19:30 : Possible brute-force attack on SSH from IP 203.0.113.99
+[SYSTEM ALERT] [MEDIUM] 2025-07-23 09:20:30 : Application crashed due to NullPointerException
+[SYSTEM ALERT] [MEDIUM] 2025-07-23 09:22:00 : Excessive CPU usage detected on node 3
+[SECURITY ALERT] [CRITICAL] 2025-07-23 09:22:30 : Ransomware signature found in /mnt/data/documents
+[SYSTEM ALERT] [MEDIUM] 2025-07-23 09:23:30 : Deadlock detected in transaction 12487
