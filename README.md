@@ -1,4 +1,4 @@
-# 🔍 Log Anomaly Detection System
+# Log Anomaly Detection System
 
 This project is a simple Python-based log anomaly detection system. It reads system logs from a file, detects anomalies, and classifies them into **SECURITY** or **SYSTEM** alerts with severity levels like `CRITICAL` or `MEDIUM`.
 
