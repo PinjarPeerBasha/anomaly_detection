@@ -5,6 +5,7 @@ This project is a simple Python-based log anomaly detection system. It reads sys
 ## 📁 Project Structure
 
 📦 Log Anomaly Detection
+
 ├── anamoly_detection.py # Python script for anomaly detection
 
 ├── server.log # Input log file
@@ -28,7 +29,7 @@ This project is a simple Python-based log anomaly detection system. It reads sys
 pip install pandas matplotlib seaborn scikit-learn nltk
 
 ## Step 2: Run the anomaly detection script
-python anamoly_detection.py
+RUN COMMAND: python anamoly_detection.py
 
 ## Step 3: Output
 * Detected anomalies will be saved in anomaly.log
@@ -86,5 +87,3 @@ The script scans only logs with the level WARNING, ERROR, or CRITICAL. It uses k
 * Checks if the message contains anomaly keywords
 
 * Classifies and writes formatted result to anomaly.log
----
-
